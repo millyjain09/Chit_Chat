@@ -1,0 +1,33 @@
+
+node_modules/
+
+# Yarn / PnP
+.pnp
+.pnp.js
+
+# Build output
+frontend/build/
+frontend/dist/
+backend/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Coverage
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+
+# OS / Editor files
+.DS_Store
+.vscode/
